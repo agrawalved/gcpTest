@@ -1,0 +1,31 @@
+#######################################################################################
+#### URLs #############################################################################
+#######################################################################################
+
+#Purchased Hostname
+www.gcp4learn.online
+
+#Online HTML Editor
+https://codepen.io/
+
+#Setting Up LAMP - GCP community
+https://cloud.google.com/community/tutorials/setting-up-lamp#setting-up-dns
+
+#Setting Up LAMP - YouTube
+https://www.youtube.com/watch?v=J6vv7piG4gM
+
+#######################################################################################
+#### COMMANDS #########################################################################
+#######################################################################################
+
+##### Installation commands ###########################################################
+sudo apt-get update
+sudo apt-get install apache2 php libapache2-mod-php
+
+#Database Commands -- MYSQL DB testweb on test-instance
+Create database testweb ;
+grant all privileges on testweb.* TO 'web_user'@'localhost' identified by 'India@12345!';
+
+
+# Command to generate SSH Key
+ssh-keygen -t rsa -b 4096 -C agrawal.ved@gmail.com
